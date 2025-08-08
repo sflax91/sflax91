@@ -1,0 +1,53 @@
+html {
+  /* px means "pixels". The base font size is now 10 pixels high */
+  font-size: 10px;
+  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+  font-family: "Crete Round", serif;
+}
+
+h1 {
+  font-size: 55px;
+  text-align: center;
+  color: blanchedalmond;
+}
+
+p,
+a,
+li {
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 1px;
+  color: white;
+  font-family: "Times New Roman", serif;
+}
+
+html {
+  background-color: #5457bb;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ff9500;
+  padding: 0px 20px 20px 20px;
+  /*border: 1px solid black;*/
+}
+
+h1 {
+  margin: 0;
+  padding: 10px 0;
+  color: #00539f;
+  text-shadow: 1px 1px 1px black;
+}
+
+img,
+button {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.done {
+  color: darkseagreen;
+  text-decoration: line-through solid black 2px;
+}
